@@ -16,4 +16,7 @@ A simple Euler scheme is used to to simulate the cannon ball motion by appending
 
 $\mathbf{x}(t+\Delta t)=\mathbf{x}(t)+\mathbf{v}(t) \Delta t$
 $\mathbf{v}(t+\Delta t)=\mathbf{v}(t)+\frac{\mathbf{F}(t)}{m} \Delta t$
+
+
+
 ![image](https://user-images.githubusercontent.com/33937631/200519469-84bef7cd-3ba3-4df2-8658-f3cf37338176.png)
