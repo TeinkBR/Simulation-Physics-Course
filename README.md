@@ -21,11 +21,8 @@ $\mathbf{v}(t+\Delta t)=\mathbf{v}(t)+\frac{\mathbf{F}(t)}{m} \Delta t$
 
 ![image](https://user-images.githubusercontent.com/33937631/200519469-84bef7cd-3ba3-4df2-8658-f3cf37338176.png)
 
-3.1 Simulating the solar system with the Euler scheme
-The behavior of the solar system is governed by the gravitational force between any two "particles":
-
+## 3.1 Simulating the solar system with the Euler scheme
+# The behavior of the solar system is governed by the gravitational force between any two "particles":
 $\mathbf{F}_{i j}=-G m_i m_j \frac{\mathbf{r}_{i j}}{\left|\mathbf{r}_{i j}\right|^3}$
-
 is:
-
 $\mathbf{F}_i=\sum_{\substack{j=0 \\ i \neq j}}^N \mathbf{F}_{i j}$
